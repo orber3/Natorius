@@ -14,6 +14,28 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <div class="navigation">
+<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+<label for="navi-toggle" class="navigation__button"> 
+    <span class="navigation__icon" > 
+  
+    </span>
+</label>
+
+<div class="navigation__background">&nbsp;</div>
+
+<nav class="navigation__nav"> 
+    <ul class="navigation__list">
+        <li class="navigation__item"><a  href="#" class="navigation__link"> About</a></li>
+        <li class="navigation__item"><a  href="#" class="navigation__link"> your benifts</a></li>
+        <li class="navigation__item"><a  href="#" class="navigation__link"> popilar tours</a></li>
+        <li class="navigation__item"><a  href="#" class="navigation__link"> stories</a></li>
+        <li class="navigation__item"><a   href="#" class="navigation__link"> book now</a></li>
+    </ul>
+</nav>
+        </div>
+
+
         <header class="header"> 
         <div> 
             <div class = "header__logo-box"> 
@@ -177,7 +199,7 @@ meet nature                                        </h3>
                                             <div class="card__price-box">
                                                 <p class=" card__price-only"> Only</p>
                                                 <p class=" card__price-value"> 297$</p>
-                                                <a href="#" class="btn btn--white"> order</a>
+                                                <a href="#popup" class="btn btn--white"> order</a>
 
                                             </div>
                                     </div>
@@ -220,7 +242,7 @@ meet nature                                        </h3>
                                     <div class="card__price-box">
                                         <p class=" card__price-only"> Only</p>
                                         <p class=" card__price-value"> 297$</p>
-                                        <a href="#" class="btn btn--white"> order</a>
+                                        <a href="#popup" class="btn btn--white"> order</a>
 
                                     </div>
                             </div>
@@ -260,7 +282,7 @@ meet nature                                        </h3>
                                     <div class="card__price-box">
                                         <p class=" card__price-only"> Only</p>
                                         <p class=" card__price-value"> 297$</p>
-                                        <a href="#" class="btn btn--white"> order</a>
+                                        <a href="#popup" class="btn btn--white"> order</a>
 
                                     </div>
                             </div>
@@ -270,7 +292,7 @@ meet nature                                        </h3>
                 </div>               
                  </div>
                  <div class="u-center-text u-margin-top-big">
-                    <a href="#" class="btn btn--green btn--animated"> Discover our tours </a>
+                    <a href="#popup" class="btn btn--green btn--animated"> Discover our tours </a>
                 </div>
             </section>
 
@@ -374,10 +396,52 @@ meet nature                                        </h3>
                 </div>
             </section>
 
-
-
-
         </main>
-        
+ <footer class="footer"> 
+     <div class="footer__logo-box">
+         <img src="./img//logo-green-1x.png" class="footer__logo"> 
+         <div class="row">
+             <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">  <a href="#" class="footer__link"> company </a>     </li>
+                        <li class="footer__item">  <a href="#" class="footer__link"> careers </a>     </li>
+                        <li class="footer__item">  <a href="#" class="footer__link"> privacy </a>     </li>
+                        <li class="footer__item">  <a href="#" class="footer__link"> jobs </a>     </li>
+                        <li class="footer__item">  <a href="#" class="footer__link"> terms </a>     </li>
+
+                    </ul>
+
+                </div>
+
+
+             </div>
+             <div class="col-1-of-2">
+                 <p class="footer__copyright">
+                     built by Orber </p>
+             </div>
+         </div>
+     </div>       
+     </footer>
+
+     <div class="popup" id="popup">
+         <div class="popup__content">
+                <div class="popup__left">
+                        <img class="popup__img"src="./img/nat-9.jpg" alt="tour photo">
+                        <img class = "popup__img" src="./img/nat-8.jpg" alt="tour photo">
+
+
+                </div>
+                    <div class="popup__right">
+                            <a href='#section-tours' class="popup__close" > &times; </a>
+                        <h2 class="heading-secondary"> start booking now</h2>
+                        <h3 class="heading-ters">important &ndash; read before booking</h3>
+                        <p class="popup__text"> 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempora nam vero pariatur quae enim et recusandae. Sit, delectus consequuntur sed iste, cum dolorem natus quidem quos, cumque non laboriosam.                            </p>
+                            <a href="#" class="btn btn--green btn--animated"> book now</a>
+
+                    </div>
+            </div>
+     </div>
     </body>
 </html>
